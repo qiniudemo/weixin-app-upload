@@ -6,14 +6,13 @@
 
 1. 七牛账号 [点击注册](https://portal.qiniu.com/signup/choice)
 
-2. 登陆 [七牛云控制台](portal.qiniu.com) 点击 对象存储 新建 存储空间
+2. 登陆 [七牛云控制台](https://portal.qiniu.com) 点击 对象存储 新建 存储空间
 
 3. 开发设置中的服务器域名需配置如下
 
-   | request合法域名                              | uploadFile合法域名                           |
-   | ---------------------------------------- | ---------------------------------------- |
-   | [https://api.qiniudemo.com](https://api.qiniudemo.com) 服务器端获取UpToken地址 | [https://upload.qbox.me](https://upload.qbox.me) 空间所在机房对应的上传域名，参考文档 [上传域名](https://support.qiniu.com/question/226014) |
-   |                                          |                                          |
+ | request合法域名                        | uploadFile合法域名                           |
+ |----------------------------------------|---------------------------------------- | 
+ |`https://api.qiniudemo.com` 服务器端获取UpToken地址|`https://upload.qbox.me` 空间所在机房对应的上传域名，参考文档 [上传域名选择](https://support.qiniu.com/question/226014) |
 
 ### 代码结构
 
