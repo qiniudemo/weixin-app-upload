@@ -12,7 +12,7 @@
 
    | request合法域名                              | uploadFile合法域名                           |
    | ---------------------------------------- | ---------------------------------------- |
-   | https://api.qiniudemo.com（服务器端获取Token地址） | https://upload.qbox.me（对应存储空间的存储区域选择 [上传域名](https://support.qiniu.com/question/226014)） |
+   | [https://api.qiniudemo.com](https://api.qiniudemo.com) 服务器端获取UpToken地址 | [https://upload.qbox.me](https://upload.qbox.me) 空间所在机房对应的上传域名，参考文档 [上传域名](https://support.qiniu.com/question/226014) |
    |                                          |                                          |
 
 ### 代码结构
