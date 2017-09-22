@@ -12,7 +12,7 @@
 
  | request合法域名                        | uploadFile合法域名                           |
  |----------------------------------------|---------------------------------------- | 
- |`https://api.qiniudemo.com` 服务器端获取UpToken地址|`https://upload.qbox.me` 空间所在机房对应的上传域名，参考文档 [上传域名选择]( https://developer.qiniu.com/kodo/manual/1671/region-endpoint ) |
+ |`https://api.qiniudemo.com` 服务器端获取UpToken地址|`https://upload.qiniup.com` 空间所在机房对应的上传域名，参考文档 [上传域名选择]( https://developer.qiniu.com/kodo/manual/1671/region-endpoint ) |
 
 ### 代码结构
 
@@ -97,7 +97,7 @@ Page({
                 console.log("start to upload file "+origFilePath);
                 wx.uploadFile({
                 //根据空间选择对应的https上传加速域名
-                url: 'https://upload.qbox.me',
+                url: 'https://upload.qiniup.com',
                 //上传原始文件
                 filePath: origFilePath,
                 //名称必须是file
